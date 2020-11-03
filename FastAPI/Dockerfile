@@ -10,5 +10,4 @@ RUN apk add --no-cache build-base \
 
 COPY main.py .
 EXPOSE 8000
-# FastAPIを8000ポートで待機
 CMD ["uvicorn", "main:app", "--reload", "--host", "0.0.0.0", "--port", "8000"]
