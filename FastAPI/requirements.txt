@@ -1,2 +1,3 @@
 uvicorn
 fastapi
+aws-xray-sdk==2.7.0
